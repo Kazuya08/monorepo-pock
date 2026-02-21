@@ -18,10 +18,13 @@ const ThemeImage = (props: Props) => {
   );
 };
 
+import { RootMFE } from "@repo/mfe-next";
+
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <RootMFE title="MFE running inside Next.js!" />
         <ThemeImage
           className={styles.logo}
           srcLight="turborepo-dark.svg"

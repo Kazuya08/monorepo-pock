@@ -1,0 +1,14 @@
+{
+    "extends": "@repo/typescript-config/base.json",
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "useDefineForClassFields": true,
+        "allowImportingTsExtensions": true,
+        "noEmit": true
+    },
+    "include": [
+        "src"
+    ]
+}
